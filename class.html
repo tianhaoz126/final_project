@@ -6,7 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Splashes | Classes & Schedules</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <style>
+       .class-description img {
+    width: 100%;
+    height: 250px;  /* Set a fixed height */
+    object-fit: cover; 
+}
+
+        .page-header {
+    background-color: #74c7b8;
+    padding: 50px 0;
+    color: white;
+}
+
+.classes-details .class-description {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.classes-details .class-description:hover {
+    transform: translateY(-10px);
+}
+
+.classes-details h3 {
+    color: #333;
+    margin-top: 15px;
+}
+
+.schedule {
+    margin-top: 50px;
+}
+
+.schedule table {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.schedule th, .schedule td {
+    text-align: center;
+    padding: 15px;
+}
+
+.schedule th {
+    background-color: #74c7b8;
+    color: white;
+}
+
+.registration {
+    margin-top: 50px;
+    background-color: #f5f5f5;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.registration form .btn {
+    background-color: #74c7b8;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.registration form .btn:hover {
+    background-color: #5baa99;
+}
+
+    </style>
 </head>
 
 <body>
@@ -48,21 +116,21 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="class-description">
-                    <img src="https://via.placeholder.com/300x200" alt="Beginner's Class" class="img-fluid mb-3">
+                    <img src="class_image/beginer_class.jpeg" alt="Beginner's Class" class="img-fluid mb-3">
                     <h3>Beginner's Class</h3>
                     <p>Designed for the little ones setting out on their aquatic adventure. This class focuses on comfort, basic strokes, and water safety. Every splash they make is a step towards confidence.</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="class-description">
-                    <img src="https://via.placeholder.com/300x200" alt="Intermediate Class" class="img-fluid mb-3">
+                    <img src="class_image/inter_class.jpeg" alt="Intermediate Class" class="img-fluid mb-3">
                     <h3>Intermediate Class</h3>
                     <p>For the young swimmers who have conquered the basics. This class delves into advanced techniques, diving, and endurance. We turn paddlers into proficient swimmers.</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="class-description">
-                    <img src="https://via.placeholder.com/300x200" alt="Advanced Class" class="img-fluid mb-3">
+                    <img src="class_image/advanced.jpeg" alt="Advanced Class" class="img-fluid mb-3">
                     <h3>Advanced Class</h3>
                     <p>The deep end for those who dream big! Perfect for kids aiming for competitions or advanced aquatic activities. We refine techniques, teach new styles, and enhance endurance.</p>
                 </div>
